@@ -74,7 +74,7 @@ function saveRecord(record) {
             // clear all items in your store
             budgetObjectStore.clear();
 
-            alert('All saved budget has been submitted!');
+            alert('Budget has been updated with your offline information!');
             })
             .catch(err => {
             console.log(err);
